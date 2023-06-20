@@ -1,0 +1,234 @@
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+
+#logo {
+    width: 50px;
+    margin-left: 10px
+}
+
+section p {
+    font-style: italic;
+}
+
+.titulofooter {
+    color: black;
+    font-size: 40px;
+}
+
+.producto {
+    font-size: 20px;
+    text-align: center;
+    margin: 50px;
+    
+}
+
+.pie {
+    background-color: rgb(255, 184, 76);
+    height: 570px;
+    background-image: url(../images/maradona.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+    font-size: 40px;
+    font-size: 30px;
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 70px;
+}
+
+.pie-pagina .grupo-1 .box  h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+
+}
+
+.pie-pagina .grupo-1 .red-social img{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+@media (max-width:700px){
+    .pie-pagina .grupo-1{
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        }
+}
+
+
+footer ul {
+    list-style-type: none;
+}
+
+.volver {
+    text-align: left;
+}
+
+.datos {
+    text-align: right;
+}
+
+.lugar {
+    text-align: center;
+    font-size: 50px;
+}
+
+.camiseta {
+    width: 20;
+}
+
+.precio {
+    text-align: center;
+    font-size: 40px;
+}
+
+.donde {
+    display: flex;
+
+}
+
+.formulario {
+    font-size: 40px;
+}
+
+#nose {
+    font-size: 40px;
+}
+
+.form {
+    size: 50px;
+}
+
+table {
+    font-size: 50px;
+}
+
+.intro {
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    background-color: aquamarine;
+    padding: 10px;
+    align-items: center;
+    height: auto;
+}
+
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.size{
+    text-align: center;
+}
+
+
+
+
+.texto {
+    padding: 5%;
+    width: 90%
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: white;
+}
+
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+
+.talles{
+    text-align: center;
+}
+
+.contenedor{
+    width: 100%;
+}
+@media (max-width:400px){
+    .contenedor{
+        width: 100%;
+    }
+}
+
+@media (max-width:320px){
+    .producto{
+        width: 50px;
+    }
+}
+
+.producto p{
+    text-align: center;
+}
